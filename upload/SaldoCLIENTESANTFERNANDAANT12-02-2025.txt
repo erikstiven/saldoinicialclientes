@@ -1,0 +1,2 @@
+PASAPORTE	tipo_documento	fechaemi	Num_factura	fechavence	saldo	detalle	moneda	tipo_cambio
+922279443	ANTICIPO	12/30/2024	30/12/2024	12/30/2024	200000.00	SALDO INICIAL	DOLAR	1

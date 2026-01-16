@@ -1,0 +1,2 @@
+Identificacion	tipo_doc	fecha	factura	vence	valor	dasi_det_asi
+1723470330	FACTURA	2022-02-2021	001-001-000000071	15/03/2022	500	insert en diario.

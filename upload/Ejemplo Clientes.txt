@@ -1,0 +1,2 @@
+Identificacion	tipo_doc	fecha	factura	vence	valor	dasi_det_asi
+3315539	FACTURA	2022-11-01	001-001-000000852	2023-12-12	2100	insert en diario.}

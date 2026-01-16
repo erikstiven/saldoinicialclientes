@@ -1,0 +1,2 @@
+dasi_cod_cuen	dasi_cod_cact	ccos_cod_ccos	dasi_dml_dasi	dasi_cml_dasi	dasi_det_asi
+1.01.01.01.001	001	1.01.02.	0	44,2	ESTA FILA SE INSERTO

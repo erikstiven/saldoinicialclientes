@@ -1,0 +1,2 @@
+Identificacion	tipo_doc	fecha	factura	vence	valor	detalle
+1750581207	NOTA DE CREDITO	2022-02-2022	001-001-000000072	2022-03-16	1000	PRUEBA CON 10 DIJITS
