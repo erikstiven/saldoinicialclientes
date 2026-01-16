@@ -1330,13 +1330,19 @@ function guardar_saldos($aForm = '')
 
                 //echo $mone_local;exit;
 
-                if ($mone_cod_mone == $mone_local) {
+                $valor_base = (float) str_replace(',', '.', $valor);
+                $valor_mon_local = 0;
+                $valor_mon_extra = 0;
 
-                    $valor_mon_local = $valor;
-                    $valor_mon_extra = number_format($valor / $tipo_cambio, 2, '', '.');
+                if ($mone_cod_mone == $mone_local) {
+                    $valor_mon_local = $valor_base;
+                    $valor_mon_extra = number_format($valor_base / $tipo_cambio, 2, '', '.');
                 } elseif ($mone_cod_mone == $moneda_extranjera) {
-                    $valor_mon_local = $valor * $tipo_cambio;
-                    $valor_mon_extra = $valor;
+                    $valor_mon_local = $valor_base * $tipo_cambio;
+                    $valor_mon_extra = $valor_base;
+                } else {
+                    $valor_mon_local = $valor_base;
+                    $valor_mon_extra = $valor_base;
                 }
 
 

@@ -132,6 +132,7 @@ class mayorizacion_class
                // echo 
                
                 // SAEASTO
+                $total_vta = is_numeric($total_vta) ? (float) $total_vta : 0;
                 $sql = "insert into saeasto (  asto_cod_asto,       asto_cod_empr,      asto_cod_sucu,      asto_cod_ejer,
                                            asto_num_prdo,       asto_cod_mone,      asto_cod_usua,      asto_cod_modu,
                                            asto_cod_tdoc,       asto_ben_asto,      asto_vat_asto,      asto_fec_asto,
